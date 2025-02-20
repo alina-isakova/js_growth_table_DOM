@@ -36,7 +36,7 @@ appendColumn.addEventListener('click', () => {
   const rows = table.rows;
 
   if (rows[0].cells.length < maxCols) {
-    for (let i = 0; i < rows[0].cells.length; i++) {
+    for (let i = 0; i < rows.length; i++) {
       rows[i].insertCell();
     }
   }
