@@ -40,6 +40,8 @@ appendColumn.addEventListener('click', () => {
       rows[i].insertCell();
     }
   }
+
+  updateButton();
 });
 
 removeColumn.addEventListener('click', () => {
